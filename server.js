@@ -45,6 +45,6 @@ app.post('/image/detect', image.handleApiCall());
 
 app.put('/image/entries', image.handleImageEntries(db));
 
-app.listen('3000', () => {
+app.listen(3000, () => {
     console.log('listening at port 3000')
 });
