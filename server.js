@@ -1,10 +1,3 @@
-/**
- ** / --> GET --> res = this is working
- ** /signin --> POST --> res = success/fail
- ** /register --> POST --> res = new user obj
- ** /profile/:userId --> GET --> res = user obj
- ** /image --> PUT ---> res = updated user obj with new count for User Rank
-*/
 const express = require('express');
 const cors = require('cors');
 const bcrypt = require('bcryptjs');
